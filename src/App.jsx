@@ -114,7 +114,7 @@ export default function CampaignSite() {
           </Card>
           <Card className="shadow-lg rounded-2xl overflow-hidden">
             <CardContent className="p-0">
-              <img src={photos.headshot} alt="Ralph Schofield headshot" className="w-full h-96 object-cover"/>
+              <img src={photos.headshot} alt="Ralph Schofield headshot" className="w-full h-120 object-cover"/>
               <div className="p-7">
                 <h3 className="text-xl font-semibold">Quick Links</h3>
                 <div className="mt-4 flex flex-col gap-3 text-sm">
@@ -152,11 +152,11 @@ function PhotoStrip({ photos }) {
       </figure>
       <div className="grid grid-cols-2 gap-3">
         <figure className="rounded-xl overflow-hidden border bg-white">
-          <img src={photos.group} alt="Neighbors & friends — community relationships" className="w-full h-72 object-cover" />
+          <img src={photos.group} alt="Neighbors & friends — community relationships" className="w-full h-90 object-cover" />
           <figcaption className="p-2 text-xs text-slate-600">Neighbors & friends — community relationships</figcaption>
         </figure>
         <figure className="rounded-xl overflow-hidden border bg-white">
-          <img src={photos.downtown} alt="With Jessica in downtown Pensacola" className="w-full h-72 object-cover" />
+          <img src={photos.downtown} alt="With Jessica in downtown Pensacola" className="w-full h-90 object-cover" />
           <figcaption className="p-2 text-xs text-slate-600">With Jessica in downtown Pensacola</figcaption>
         </figure>
       </div>
