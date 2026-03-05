@@ -184,6 +184,8 @@ const handleVideoClick = () => {
                   <a className="inline-flex items-center gap-2 hover:text-emerald-700" href="https://ecua.fl.gov/contact-ecua" target="_blank" rel="noreferrer"><Phone className="h-4 w-4"/> Report a Service Issue</a>
                   <a className="inline-flex items-center gap-2 hover:text-emerald-700" href="https://escambiavotes.gov/precincts-and-districts" target="_blank" rel="noreferrer"><MapPin className="h-4 w-4"/> Find Your Precinct</a>
                   <a className="inline-flex items-center gap-2 hover:text-emerald-700" href="https://ecua.maps.arcgis.com" target="_blank" rel="noreferrer"><MapPin className="h-4 w-4"/> ECUA District Map</a>
+                  <a className="inline-flex items-center gap-2 hover:text-emerald-700" href="https://www.voterfocus.com/CampaignFinance/candidate_pr.php?op=cv&e=26&c=escambia&ca=828&rellevel=4&committee=N" target="_blank" rel="noreferrer"><FileText className="h-4 w-4" />Official Candidate Profile</a>
+                  <a className="inline-flex items-center gap-2 hover:text-emerald-700" href="https://linkedin.com/in/ralphschofield" target="_blank" rel="noreferrer"><Share2 className="h-4 w-4" />Professional Background (LinkedIn)</a>
                 </div>
               </div>
             </CardContent>
