@@ -10,4 +10,11 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  preview: {
+    host: true,
+    allowedHosts: [
+      "ralph-for-ecua.onrender.com",
+      "ralph-for-ecua-91ie.onrender.com",
+    ],
+  }
 })
