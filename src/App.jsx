@@ -354,9 +354,6 @@ const handleVideoClick = () => {
       <section id="updates" className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold">Updates</h2>
-          <p className="mt-2 text-sm text-slate-600">
-            Short, clear updates as the campaign progresses.
-          </p>
           <div className="mt-6 grid md:grid-cols-3 gap-6">
             <Card className="rounded-2xl shadow-sm h-full">
               <CardContent className="p-5 text-sm">
@@ -383,10 +380,15 @@ const handleVideoClick = () => {
                 <p className="text-xs uppercase tracking-wide text-slate-500">
                   Coming Soon
                 </p>
-                <h3 className="mt-1 font-semibold">Listening Sessions</h3>
+                <h3 className="mt-1 font-semibold">Follow My Posts on Facebook</h3>
                 <p className="mt-2 text-slate-600">
-                  Small group conversations with District 4 residents about spills,
-                  rates, recycling, and everyday service issues.
+                  Short, clear updates as the campaign progresses can be found here: 
+                    <a
+  href="https://www.facebook.com/telelawyer"
+  target="_blank"
+  rel="noreferrer"
+  className="block text-center text-emerald-600 font-medium"
+>Campaign Facebook Page</a>
                 </p>
               </CardContent>
             </Card>
